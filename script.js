@@ -47,7 +47,7 @@ function fetchRecipes(keyword, numberOfResults, intolerances) {
 
   $("#recipeCard").empty();
 
-  var APIKey = "74d82ee79a804056882eece5c8be4141";
+  var APIKey = "454a86eaeacb46388aa9439b5c0c474e";
     
     console.log("Search input includes" + diet +" "+ keyword + "with the following intolerances: " + intolerances);
     var number = "&number=" + numberOfResults;
